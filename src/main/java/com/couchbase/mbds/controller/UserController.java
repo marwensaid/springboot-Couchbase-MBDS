@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
  */
 
 @RestController
-@RequestMapping
+@RequestMapping("/api/user")
 public class UserController {
 
     private final Bucket bucket;
